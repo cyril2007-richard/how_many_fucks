@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOW MANY FUCKS DO I GIVE</title>
+        <link rel="stylesheet" href="/how_many_fucks/static/styles.css">
+    </head>
+    <body>
+        <div id="cardcontainer">
+            <h1> HOW MANY FUCKS DO YOU GIVE? </h1>
+            <input type="text" id="fucksInput" placeholder="e.g. none, 0.0, a lot, few" />
+            <button>Create</button>
+        </div>
+
+        <div id="card" class="hidden">
+            <p id="cardText"></p>
+        </div>
+        <button id="boom" onclick="shareCard()">Download & Share</button1>
+           
+
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <script src="/how_many_fucks/static/script.js"></script>
+        <script>
+            window.onload = () => {
+                document.querySelector("button").addEventListener("click", generateCard);
+            };
+        </script>
+    </body>
+</html>

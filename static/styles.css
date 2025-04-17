@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+
+body {
+    background-image: url(/how_many_fucks/static/images/landscape-2609834_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 9%;
+    font-family: 'Press Start 2P', cursive;
+    image-rendering: pixelated;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px dashed #fff;
+    border-radius: 5px;
+    background-color: #222;
+    color: #0ff;
+    font-family: 'Press Start 2P', cursive;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 14px;
+    background-color: #0ff;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1) rotate(-1deg);
+    background-color: #ff0;
+    color: #000;
+}
+
+#cardcontainer {
+    background: #111;
+    color: #ffccff;
+    margin-top: 60px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 25px #0ff;
+    border: 4px double #fff;
+    font-size: 10px;
+}
+
+#card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin-top: 40px;
+    padding: 40px 25px;
+    border-radius: 10px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ccc;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    position: relative;
+    font-size: 20px;  
+    font-weight: bold; 
+    text-transform: uppercase;  
+    line-height: 1.5;
+    text-shadow: 0 0 10px rgba(17, 2, 2, 0.7), 0 0 20px rgba(30, 23, 23, 0.7);
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    transition: background-image 0.3s ease-in-out;
+}
+
+#card::after {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 12px;
+    background-color: #000;
+    padding: 4px 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#boom {
+    padding: 12px 25px;
+    font-size: 14px;
+    background-color: #0ff;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    transition: transform 0.2s ease-in-out;
+}
+#boom:hover {
+    transform: scale(1.1) rotate(-1deg);
+    background-color: #ff0;
+    color: #000;
+}
+.hidden {
+    display: none;
+}

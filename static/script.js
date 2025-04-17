@@ -34,13 +34,13 @@ function generateCard() {
     
     
     const backgrounds = [
-        "url('/how_many_fucks/static/images/bg1.jpg')",
-        "url('/how_many_fucks/static/images/bg2.jpg')",
-        "url('/how_many_fucks/static/images/bg3.jpg')",
-        "url('/how_many_fucks/static/images/bg4.jpg')",
-        "url('/how_many_fucks/static/images/bg5.jpg')",
-        "url('/how_many_fucks/static/images/bg6.jpg')",
-        "url('/how_many_fucks/static/images/bg7.jpg')"
+        "url('static/images/bg1.jpg')",
+        "url('static/images/bg2.jpg')",
+        "url('static/images/bg3.jpg')",
+        "url('static/images/bg4.jpg')",
+        "url('static/images/bg5.jpg')",
+        "url('static/images/bg6.jpg')",
+        "url('static/images/bg7.jpg')"
     ];
 
     
